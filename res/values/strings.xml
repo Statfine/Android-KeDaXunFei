@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">讯飞Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="app_id">55af3495</string>
+    
+      <!-- 语言 -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>河南话</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>mandarin</item>
+        <item>cantonese</item>
+        <item>henanese</item>
+        <item>en_us</item>
+    </string-array>
+    
+    <string-array name="voicer_cloud_entries">
+        <item>小燕-中英文（普通话）</item>
+        <item>小宇-中英文（普通话）</item>
+        <item>凯瑟琳-英文</item>
+        <item>亨利-英文</item>
+        <item>玛丽-英文</item>
+        <item>小研-中英文（普通话）</item>
+        <item>小琪-中英文（普通话）</item>
+        <item>小峰-中英文（普通话）</item>
+        <item>小梅-中英文（粤语）</item>
+        <item>小莉-中英文（台湾普通话）</item>
+        <item>小蓉-汉语（四川话）</item>
+        <item>小芸-汉语（东北话）</item>
+        <item>小坤-汉语（河南话）</item>
+        <item>小强 -汉语（湖南话）</item>
+        <item>小莹-汉语（陕西话）</item>
+        <item>小新-汉语（普通话）</item>
+        <item>楠楠-汉语（普通话）</item>
+        <item>老孙-汉语（普通话）</item>
+    </string-array>
+    <string-array name="voicer_cloud_values">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>catherine</item>
+        <item>henry</item>
+        <item>vimary</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+        <item>xiaorong</item>
+        <item>xiaoqian</item>
+        <item>xiaokun</item>
+        <item>xiaoqiang</item>
+        <item>vixying</item>
+        <item>xiaoxin</item>
+        <item>nannan</item>
+        <item>vils</item>
+    </string-array>
+    
+        <!-- 标点符号 -->
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="dwa_entries">
+        <item>开启</item>
+        <item>关闭</item>
+    </string-array>
+    
+    <string-array name="ise_language_entries">
+        <item>英语</item>
+        <item>汉语</item>
+    </string-array>
+    <string-array name="ise_language_values">
+        <item>en_us</item>
+        <item>zh_cn</item>
+    </string-array>
+        <string-array name="category_entries">
+        <item>单字</item>
+        <item>词语</item>
+        <item>句子</item>
+    </string-array>
+    <string-array name="category_values">
+        <item>read_syllable</item>
+        <item>read_word</item>
+        <item>read_sentence</item>
+    </string-array>
+    <string-array name="result_level_entries">
+        <item>plain</item>
+        <item>complete</item>
+    </string-array>
+    
+    <string-array name="stream_entries">
+        <item>通话</item>
+        <item>系统</item>
+        <item>铃声</item>
+        <item>音乐</item>
+        <item>闹铃</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="stream_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="pref_title_iat_show">显示听写界面</string>
+    <string name="pref_title_iat_dwa">结果动态修正</string>
+    
+    <!-- 听写 -->
+    <string name="text_begin">请开始说话…</string>
+    
+       <!-- 提示安装语音+对话框 -->
+    <string name="superman_ok">确 定</string>
+    <string name="superman_cancel">取 消</string>
+    <string name="superman_title">来 吧 !</string>
+    <string name="superman_content">让我把你的应用变的能听会说吧！</string>
+    
+    <string name="example_explain">本示例为讯飞语音Android平台开发者提供语音听写，语音识别（包括命令词和语法文件识别）和语音合成等代码样例，旨在让用户能够依据该示例快速开发出基于语音接口的应用程序。</string>
+    <string name="text_tts_source">科大讯飞作为中国最大的智能语音技术提供商，在智能语音技术领域有着长期的研究积累，并在中文语音合成、语音识别、口语评测等多项技术上拥有国际领先的成果。科大讯飞是我国唯一以语音技术为产业化方向的“国家863计划成果产业化基地”…</string>
+    <string name="text_tts_source_en">iFLYTEK is a national key software enterprise dedicated to the research of intelligent speech and language technologies, development of software and chip products, provision of speech information services, and integration of E-government systems. The intelligent speech technology of iFLYTEK, the core technology of the company, represents the top level in the world.</string>
+	<string formatted="false" name="tts_toast_format">缓冲进度为%d%%，播放进度为%d%%</string>
+    
+</resources>
